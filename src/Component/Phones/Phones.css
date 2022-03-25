@@ -1,0 +1,21 @@
+.phone-title{
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: -50px;
+    color:#303030;
+    font-weight: 700;
+}
+.arena{
+    color:  gray;
+}
+.phones-container{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+.phones{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}

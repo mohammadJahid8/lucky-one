@@ -1,10 +1,10 @@
 import './App.css';
+import Phones from './Component/Phones/Phones';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Mobile Arena</h1>
-      
+    <div className="">
+      <Phones></Phones>
     </div>
   );
 }

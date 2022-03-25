@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap');
+.phone img{
+    width: 290px;
+    height: 290px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.phone{
+    box-shadow: 0 0 7px gray;
+    width: 298px;
+    height: 460px;
+    border-radius: 8px;
+    position: relative;
+}
+#price{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+.price-title{
+    font-weight: 700;
+}
+.phone-name{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.btn-cart{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    background: lightgrey;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart:hover{
+    background: gray;
+}
+.btn-text{
+    margin-right: 5px;
+}
