@@ -1,0 +1,74 @@
+[
+    {
+        "image": "https://image01.realme.net/general/20220309/1646828425169.png",
+        "id": 1,
+        "name": "Realme 9 Pro 5G",
+        "price": 20000
+    },
+    {
+        "image": "https://image01.realme.net/general/20200610/1591795633564.jpg",
+        "id": 2,
+        "name": "Realme GT Neo 3 5G",
+        "price": 25500
+    },
+    {
+        "image": "https://image01.realme.net/general/20220314/1647238315448.png",
+        "id": 3,
+        "name": "Realme 9i",
+        "price": 22555
+    },
+    {
+        "image": "https://image01.realme.net/general/20210811/1628680988612.png",
+        "id": 4,
+        "name": "Realme C35",
+        "price": 23550
+    },
+    {
+        "image": "https://image01.realme.net/general/20201028/1603873784260.png",
+        "id": 5,
+        "name": "Realme 8",
+        "price": 35320
+    },
+    {
+        "image": "https://image01.realme.net/general/20210916/1631776475968.png",
+        "id": 6,
+        "name": "Realme Narzo 50",
+        "price": 11550
+    },
+    {
+        "image": "https://image01.realme.net/general/20220126/1643190140852.png",
+        "id": 7,
+        "name": "Realme C35",
+        "price": 12550
+    },
+    {
+        "image": "https://image01.realme.net/general/20210323/1616485282573.png",
+        "id": 8,
+        "name": "Realme 7 Pro",
+        "price": 14550
+    },
+    {
+        "image": "https://image01.realme.net/general/20220309/1646828425169.png",
+        "id": 9,
+        "name": "",
+        "price": 15550
+    },
+    {
+        "image": "https://image01.realme.net/general/20191130/1575124654531.jpg",
+        "id": 10,
+        "name": "Realme Narzo 50A",
+        "price": 16550
+    },
+    {
+        "image": "https://image01.realme.net/general/20191112/1573530974392.jpg",
+        "id": 11,
+        "name": "Realme C2s",
+        "price": 17550
+    },
+    {
+        "image": "https://image01.realme.net/general/20220131/1643635212824.png",
+        "id": 12,
+        "name": "Realme X7 Max",
+        "price": 18550
+    }
+]
