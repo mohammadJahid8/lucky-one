@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.phone-title{
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: -50px;
+  color:#303030;
+  font-weight: 700;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
