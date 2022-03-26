@@ -25,10 +25,9 @@
 }
 .icon-cart{
     width: 10%;
-    
 }
 .cart-btn{
-    border: none;
+    border: 1px solid gray;
     margin-bottom: 5px;
     background: whitesmoke;
     border-radius: 5px;
@@ -38,11 +37,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
     font-family: 'Poppins', sans-serif;
-    /* justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto; */
-    
+    font-weight: 400;
 }
 .cart-btn:hover{
     background: gray;

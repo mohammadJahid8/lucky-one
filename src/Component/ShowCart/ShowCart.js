@@ -1,25 +1,18 @@
 import React from 'react';
 import './ShowCart.css'
-const ShowCart = ({ phone}) => {
-    const { name } = phone;
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDeleteLeft } from '@fortawesome/free-solid-svg-icons'
+
+const ShowCart = ({ phone, deleteItem }) => {
+    const { name, id} = phone;
     return (
         <div className="cart-details">
-            <p className="cart-phones">{name}</p>
-            <div className="cart-buttons">
-
-                {/* <div className="btn-container">
-                    <button className="cart-btn">
-                        <p>Choose For Me</p>
-                    </button>
-                    <br />
-                    <button className="cart-btn">
-                        <p>Remove</p>
-                    </button>
-                </div> */}
-
-
-            </div>
             
+            <p  className="cart-phones">{name}
+                <FontAwesomeIcon onClick={() => deleteItem(id)} className="delete-icon" icon={faDeleteLeft}></FontAwesomeIcon>
+            </p>
+
+
         </div>
     );
 };

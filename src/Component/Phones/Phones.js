@@ -9,8 +9,7 @@ const Phones = () => {
     const [phones, setPhones] = useState([]);
     const [cart, setCart] = useState([]);
     const [randomPhone, setRandom] = useState([]);
-    // console.log(random);
-
+    // console.log(cart);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -18,13 +17,21 @@ const Phones = () => {
     }, [])
 
     const handleAddToCart = (phone) => {
+        const exist = cart.find(pd => pd.id === phone.id);
+
         const newCart = [...cart, phone];
-        if (newCart.length <= 4) {
+
+        if (exist) {
+
+            alert('You cant add same device twice')
+        }
+        else if (newCart.length <= 4) {
             setCart(newCart);
         }
         else {
             alert('Cant add more than 4 devices')
         }
+
 
     }
     const randomData = () => {
@@ -43,11 +50,14 @@ const Phones = () => {
         setCart([]);
         setRandom([]);
     }
-
+    const deleteItem = (id) => {
+        const newList = cart.filter((item) => item.id !== id);
+        setCart(newList);
+    }
     return (
         <div className="phones-container">
             <div>
-               
+
                 <div className="phones">
                     {phones.map(phone => <Phone phone={phone} key={phone.id} handleAddToCart={handleAddToCart}></Phone>)}
                 </div>
@@ -55,7 +65,7 @@ const Phones = () => {
             </div>
 
             <div className="cart-container">
-                <Cart cart={cart} randomData={randomData} randomPhone={randomPhone} clearCart={clearCart}></Cart>
+                <Cart cart={cart} randomData={randomData} randomPhone={randomPhone} clearCart={clearCart} deleteItem={deleteItem}></Cart>
             </div>
         </div>
     );

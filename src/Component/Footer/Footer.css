@@ -2,7 +2,7 @@
 .QnA-container{
     background: lightgrey;
     width: 100%;
-    
+    color: #303030;
     margin-top:100px;
 }
 .footer p {
@@ -12,6 +12,7 @@
     font-size: 15px;
 }
 .faqs{
+    color: #303030;
     text-align: center;
 }
 .QnA{

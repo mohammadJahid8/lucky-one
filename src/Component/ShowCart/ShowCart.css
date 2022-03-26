@@ -6,3 +6,18 @@
     padding: 10px;
     margin: 10px;
 }
+.delete-icon{
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+    justify-content: space-around;    
+    position: absolute;
+    padding-right: 20px;
+    right: 0;
+}
+.delete-icon:hover{
+    color: rgb(133, 23, 23);
+}
+.img{
+    width: 10%;
+}
