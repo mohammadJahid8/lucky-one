@@ -1,12 +1,13 @@
 import React from 'react';
 import './ShowCart.css'
-const ShowCart = () => {
+const ShowCart = ({ phone}) => {
+    const { name } = phone;
     return (
         <div className="cart-details">
-            <p className="cart-phones">Name</p>
+            <p className="cart-phones">{name}</p>
             <div className="cart-buttons">
 
-                <div className="btn-container">
+                {/* <div className="btn-container">
                     <button className="cart-btn">
                         <p>Choose For Me</p>
                     </button>
@@ -14,10 +15,11 @@ const ShowCart = () => {
                     <button className="cart-btn">
                         <p>Remove</p>
                     </button>
-                </div>
+                </div> */}
 
 
             </div>
+            
         </div>
     );
 };

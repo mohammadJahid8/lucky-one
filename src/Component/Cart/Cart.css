@@ -4,7 +4,7 @@
     margin-top: 130px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    height: 30%;
+    height: 40%;
     position: sticky;
     top: 0;
 }
@@ -17,4 +17,29 @@
 .icon-cart{
     width: 10%;
     
+}
+.cart-btn{
+    border: none;
+    margin-bottom: 5px;
+    background: whitesmoke;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; */
+    
+}
+.cart-btn:hover{
+    background: gray;
+}
+.btn-container{
+    display: flex;  
+    justify-content: center;
+
 }

@@ -24,3 +24,22 @@
     gap: 45px;
     margin: 100px 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .phones-container{
+        
+        grid-template-columns: repeat(1fr, 1fr);
+    }
+    .phones{
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .phone-title{
+        text-align: center;
+        font-size: 50px;
+    }
+    .cart-container{
+        display: none;
+        grid-template-columns: repeat(1, 1fr)
+        
+    }
+}
