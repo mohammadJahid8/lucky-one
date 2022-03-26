@@ -8,6 +8,15 @@
     position: sticky;
     top: 0;
 }
+.choosed-phone{
+    font-size: 18px;
+    color: #303030;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
 .cart-container h1{
     color: #303030;
     margin-top: -100px;

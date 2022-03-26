@@ -20,12 +20,25 @@ const Phones = () => {
 
     const handleAddToCart = (phone) => {
         const newCart = [...cart, phone];
-        setCart(newCart);
+        if (newCart.length <= 4) {
+            setCart(newCart);
+        }
+        else {
+            alert('Cant add more than 4 devices')
+        }
 
     }
     const randomData = () => {
+
         const number = cart[Math.floor(Math.random() * cart.length)];
-        setRandom(number);
+
+        if (number) {
+            setRandom(number);
+        }
+        else {
+
+            alert('Your Cart is Empty');
+        }
     }
     const clearCart = () => {
         setCart([]);
