@@ -8,9 +8,10 @@ const Phone = ({ phone, handleAddToCart }) => {
 
     return (
         <div className="phone">
-            <img src={image} alt="" />
+            <img title={name} src={image} alt="" />
             <p className="phone-name">{name}</p>
             <p id="price"><span className="price-title">Price:</span> {price} BDT</p>
+            
             <button onClick={() => handleAddToCart(phone)} className="btn-cart">
                 <p className="btn-text">Add To Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart} />

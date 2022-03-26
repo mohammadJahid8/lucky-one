@@ -6,7 +6,7 @@ import { faMobilePhone } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
-    <div className="">
+    <div>
       <h1 className="phone-title">Phones <span className="arena">Arena</span>
         <FontAwesomeIcon className="phone-icon" icon={faMobilePhone}></FontAwesomeIcon>
       </h1>

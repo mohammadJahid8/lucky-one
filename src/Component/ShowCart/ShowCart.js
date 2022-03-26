@@ -8,11 +8,9 @@ const ShowCart = ({ phone, deleteItem }) => {
     return (
         <div className="cart-details">
             
-            <p  className="cart-phones">{name}
-                <FontAwesomeIcon onClick={() => deleteItem(id)} className="delete-icon" icon={faDeleteLeft}></FontAwesomeIcon>
+            <p className="cart-phones">{name}
+                <FontAwesomeIcon title='delete' onClick={() => deleteItem(id)} className="delete-icon" icon={faDeleteLeft}></FontAwesomeIcon>
             </p>
-
-
         </div>
     );
 };
